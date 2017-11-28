@@ -9,8 +9,8 @@ $date = $_POST['date'];
 
 $Name = $nom.' '.$prenom;
 
-$PSPID = 'SHANB';
-$passphrase = 'Azes7895**Azes7895**';
+$PSPID = '';
+$passphrase = '';
 $credit=$acompte*100;
 $idorder = RAND(890000,895689596);
 $logo = "logoblack.png";
