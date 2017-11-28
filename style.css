@@ -1,0 +1,309 @@
+@font-face {
+  font-family: 'ladoree';
+  src: url('images/ladorree.ttf');  format('truetype'); /* Safari, Android, iOS */
+
+  			}
+
+		*{padding:0; margin: 0;}
+
+		html,body{height:100%; padding:0; margin: 0;}
+
+		.container {
+    				height:100%;
+    				width: 100%;
+    				margin: 0;
+    				padding:0;}
+
+		.part1img{
+					background-color: black;
+					height: 100%;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+					padding: 0px;
+					}
+
+
+
+
+		.part2txt{
+
+					background-color: #000;
+					height: 100%;
+					background: url(images/blackfond.png) no-repeat center center fixed;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+					margin-left: 0px;
+					margin-right: 0px;
+					padding: 0;
+					border-left: 2px solid #ffd700;
+					}
+
+		.logo{
+
+        /*background-color: #ffd700;*/
+				background-image: : url(images/logonoir.png) no-repeat center center;
+				z-index:1;
+				width: 100px;
+				height: 100px;
+				margin-top: 300px;
+				float: right;
+				margin-right: 0px;
+				border-radius: 10px 0 0 10px;
+        background: #fefcea; /* Old browsers */
+        background: url(images/logonoir.png) no-repeat center center, -moz-linear-gradient(left, #fefcea 0%, #f1da36 100%) ; /* FF3.6-15 */
+        background: url(images/logonoir.png) no-repeat center center, -webkit-linear-gradient(left, #fefcea 0%,#f1da36 100%) ; /* Chrome10-25,Safari5.1-6 */
+        background: url(images/logonoir.png) no-repeat center center, linear-gradient(to right, #fefcea 0%,#f1da36 100%) ; /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 */
+        }
+
+    .logo:hover{cursor: pointer;}
+
+		.titre{
+				color: #ffd700;
+				font-size: 130px;
+				font-family: ladoree;
+				text-align: center;
+				margin-top: 20px;
+        background: #fefcea; /* Old browsers */
+        background: -webkit-gradient(linear, left top, left bottom, from(#fefcea), to(#EDCA07));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      }
+
+    .titreRecap{
+
+    		color: #ffd700;
+    		font-size: 130px;
+    		font-family: ladoree;
+    		text-align: center;
+    		margin-top:0px;
+        background: #fefcea; /* Old browsers */
+        background: -webkit-gradient(linear, left top, left bottom, from(#fefcea), to(#EDCA07));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;}
+
+		.texte{
+        font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+				color: #fff;
+				text-align: center;
+				font-size: 19px;}
+
+		.tele{
+				color: #fefcea;
+				font-size: 40px;
+				text-align: center;
+				margin-top: 50px;
+        }
+
+
+      .num{background: #fefcea; /* Old browsers */
+          background: -webkit-gradient(linear, left top, left bottom, from(#fefcea), to(#EDCA07));
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;}
+
+
+
+		.tele a:link, a:hover,a:visited,a:active {text-decoration: none;color:#ffd700 }
+
+
+		.acompte{
+        font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+				color: #fff;
+				font-size: 40px;
+				text-align: center;
+				margin-top: 50px;
+				border: 2px solid #ffd700 ;
+				z-index: 10;
+        background-color: Transparent;}
+
+    .acompte:hover {color: #000;
+      background: #fefcea; /* Old browsers */
+      background: -moz-linear-gradient(left, #fefcea 0%, #f1da36 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left, #fefcea 0%,#f1da36 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right, #fefcea 0%,#f1da36 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefcea', endColorstr='#f1da36',GradientType=1 ); /* IE6-9 */}
+
+    .acompteRecap{
+    	  color: #fff;
+    		font-size: 40px;
+    		text-align: center;
+    		margin-top: 10px;
+    		border: 2px solid #ffd700 ;
+    		z-index: 10;}
+
+		.contact{text-align:right;}
+
+		.fa{
+			font-size: 36px;
+			margin-top: 10px;
+			text-align: right;
+			color: #ffd700;
+      background: #fefcea; /* Old browsers */
+      background: -webkit-gradient(linear, left top, left bottom, from(#fefcea), to(#EDCA07));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;}
+
+
+
+
+@media (max-width: 1150px)
+			{
+
+				.part2txt{
+					background-color: #000;
+					height: 100%;
+					background: url(images/blackfond.png) no-repeat center center fixed;
+					-webkit-background-size: cover;
+					-moz-background-size: cover;
+					-o-background-size: cover;
+					background-size: cover;
+					margin-left: 0px;
+					margin-right: 0px;
+					padding: 0;
+					border: none;
+					}
+
+
+
+  				.tele{
+  					color: #ffd700;
+  					font-size: 25px;
+  					text-align: center;
+  					margin-top: 50px;
+            }
+
+  				.acompte{
+  					color: #fff;
+  					font-size: 20px;
+  					text-align: center;
+  					margin-top: 50px;
+  					border: 2px solid #ffd700 ;
+
+  					z-index: 10;}
+
+          .acompteRecap{
+            color: #fff;
+            font-size: 20px;
+            text-align: center;
+            margin-top: 10px;
+            border: 2px solid #ffd700 ;
+            z-index: 10;}
+
+          .titre{
+      				color: #ffd700;
+      				font-size: 130px;
+      				font-family: ladoree;
+      				text-align: center;
+      				margin-top: 20px;}
+
+          .titreRecap{
+          		color: #ffd700;
+          		font-size: 130px;
+          		font-family: ladoree;
+          		text-align: center;
+          		margin-top:0px;
+              background: #fefcea; /* Old browsers */
+              background: -webkit-gradient(linear, left top, left bottom, from(#fefcea), to(#EDCA07));
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;}
+
+          .texte{
+          	  color: #fff;
+          		text-align: center;
+          		font-size: 17px;}
+
+          .fa{
+      				font-size: 25px;
+      				margin-top: 10px;
+      				text-align: right;
+      				color: #ffd700;}
+
+			}
+
+/***********************************/
+      @media (max-width: 370px)
+
+      			{
+
+      				.fa{
+      					font-size: 25px;
+      					margin-top: 10px;
+      					text-align: right;
+      					color: #ffd700;}
+
+              .titre{
+            				color: #ffd700;
+            				font-size: 80px;
+            				font-family: ladoree;
+            				text-align: center;
+            				margin-top: 20px;}
+
+              .titreRecap{
+                		color: #ffd700;
+                		font-size: 80px;
+                		font-family: ladoree;
+                		text-align: center;
+                		margin-top:0px;
+                    background: #fefcea; /* Old browsers */
+                    background: -webkit-gradient(linear, left top, left bottom, from(#fefcea), to(#EDCA07));
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;}
+
+                .contact i{text-align:right;
+                    font-size: 26px;}
+
+                .acompte{
+                		color: #fff;
+                		font-size: 20px;
+                		text-align: center;
+                		margin-top: 50px;
+                		border: 2px solid #ffd700 ;
+                		z-index: 10;}
+
+                .acompteRecap{
+                    color: #fff;
+                    font-size: 20px;
+                    text-align: center;
+                    margin-top: 10px;
+                    border: 2px solid #ffd700 ;
+                    z-index: 10;}
+
+                .texte{
+                    color: #fff;
+                    text-align: center;
+                    font-size: 15px;}
+
+                .tele{
+                		color: #ffd700;
+                		font-size: 20px;
+                		text-align: center;
+                		margin-top: 30px;}
+
+                .condition{font-size: 14px;}
+
+
+
+
+
+      			}
+
+
+.form-control {width:120px;}
+.popover {max-width:400px;}
+
+
+.form-group input, .form-group select {width: 90%;}
+
+
+
+.texte table,.texte tbody,td {text-align: left !important; }
+
+.condition{color:#ffffff !important;}
+.condition a{text-decoration: none; color:#ffd700;}
+.ogone{margin-top: 30px;}
+.ogone:hover{cursor: pointer;}
+.infoClien{font-weight: bold;}
